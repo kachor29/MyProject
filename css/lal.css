@@ -1,17 +1,19 @@
+.navbar {
+    background-color: #963f96;
+}
+
 body {
     padding: 0;
     margin: 0;
-    background: #af7fa3;
+    background: #f2f6e9;
 }
-.navbar{
-    background:#af7fa3;
-    
+.navbar {
+    background:#141812;
 }
 .nav-link,
 .navbar-brand {
-    color: rgb(212, 201, 201);
+    color: #fff;
     cursor: pointer;
-    
 }
 .nav-link {
     margin-right: 1em !important;
@@ -23,13 +25,6 @@ body {
     justify-content: flex-end;
 }
 
-.header {
-    background-image: ('img/knitting.jpg');  
-    background-size: cover;
-    background-position: center;
-    position: relative;
-}
-
 
 .description {
     left: 50%;
@@ -38,11 +33,16 @@ body {
     transform: translate(-50%, -55%);
     text-align: center;
 }
+
 .description h1 {
-    color: #f7efef;
+    color: #4c792e;
+    text-align: center;
 }
 .description p {
-    color: rgb(31, 22, 22);
+    color: rgb(10, 10, 10);
     font-size: 1.3rem;
     line-height: 1.5;
+    text-align: center;
 }
+
+  
