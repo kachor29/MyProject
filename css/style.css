@@ -1,15 +1,15 @@
 body {
     padding: 0;
     margin: 0;
-    background: #af7fa3;
+   
 }
 .navbar{
-    background:#af7fa3;
+    background:hsl(0, 0%, 100%);
     
 }
 .nav-link,
 .navbar-brand {
-    color: rgb(212, 201, 201);
+    color: rgb(3, 3, 3);
     cursor: pointer;
     
 }
@@ -23,26 +23,28 @@ body {
     justify-content: flex-end;
 }
 
-.header {
-    background-image: ('img/knitting.jpg');  
-    background-size: cover;
-    background-position: center;
-    position: relative;
-}
+
+header {
+ height: 100vh;
+ background-image: url('../img/Knitting-Needles-1024x594.jpg');
+
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ background-size: cover; 
+ margin-bottom: 30px;
+} 
 
 
-.description {
-    left: 50%;
-    position: absolute;
-    top: 45%;
-    transform: translate(-50%, -55%);
+
+
+h1 {
     text-align: center;
+    text-decoration-color: #000;
 }
-.description h1 {
-    color: #f7efef;
-}
-.description p {
-    color: rgb(31, 22, 22);
-    font-size: 1.3rem;
-    line-height: 1.5;
+
+p {
+    text-align: center;
+    text-decoration-color: rgb(17, 17, 17);
 }
