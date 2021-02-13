@@ -25,26 +25,85 @@ body {
 
 
 header {
- height: 100vh;
- background-image: url('../img/Knitting-Needles-1024x594.jpg');
+    height: 100vh;
+    background-image: url('../img/shutterstock_1715276518.jpg');
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover; 
+    margin-bottom: 50px;
+    border-bottom-color: rgb(10, 10, 10);
+   } 
 
- display: flex;
- flex-direction: column;
- align-items: center;
- justify-content: center;
- background-size: cover; 
- margin-bottom: 30px;
-} 
-
-
-
-
-h1 {
-    text-align: center;
-    text-decoration-color: #000;
+*
+{
+ margin: 0px;
+ padding: 0px;
+ font-family: monospace;
 }
 
-p {
+
+.header h1 {
+    
     text-align: center;
-    text-decoration-color: rgb(17, 17, 17);
+    text-decoration-color: rgb(10, 10, 10);
+    
 }
+
+
+
+.header p {
+    text-align: center;
+    text-decoration-color: rgb(3, 3, 3);
+    
+}    
+
+
+.features {
+    margin: 4em auto;
+    padding: 1em;
+    position: relative;
+}
+.feature-title {
+    color: rgb(0, 0, 0);
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.features img {
+    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    margin-bottom: 16px;
+}
+
+
+.features .form-control,
+.features input {
+    border-radius: 0;
+    text-align: center;
+    margin: auto;
+
+}
+.features .btn {
+    background-color: #080808;
+    border: 1px solid #020202;
+    color: #fff;
+    margin-top: 20px;
+}
+.features .btn:hover {
+    background-color: rgb(250, 248, 248);
+    border: 1px solid rgb(250, 249, 249);
+}
+
+.site-footer {
+    background-image:repeating-linear-gradient;
+    
+}
+
+
+
+
