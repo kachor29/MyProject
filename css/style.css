@@ -37,18 +37,13 @@ header {
     border-bottom-color: rgb(10, 10, 10);
    } 
 
-*
-{
- margin: 0px;
- padding: 0px;
- font-family: monospace;
-}
 
 
-.header h1 {
+
+header h1 {
     
     text-align: center;
-    text-decoration-color: rgb(10, 10, 10);
+    text-decoration-color: rgb(0, 0, 0);
     
 }
 
@@ -56,7 +51,7 @@ header {
 
 .header p {
     text-align: center;
-    text-decoration-color: rgb(3, 3, 3);
+    text-decoration-color: rgb(0, 0, 0);
     
 }    
 
@@ -78,6 +73,8 @@ header {
     -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
     margin-bottom: 16px;
+    border-radius: 0;
+    border-style: solid;
 }
 
 
@@ -100,7 +97,7 @@ header {
 }
 
 .site-footer {
-    background-image:repeating-linear-gradient;
+    background-color:rgb(252, 220, 245);
     
 }
 
